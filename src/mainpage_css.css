@@ -1,0 +1,65 @@
+.root {
+	
+	-fx-background-color:rgb(0,0,50);
+	-fx-background-radius:0px;
+}
+
+
+
+#gamename {
+
+	-fx-text-fill: white;
+	-fx-font-weight:bold;
+	-fx-font-size: 30 px;
+	-fx-font-family: Jokerman;
+	
+}
+
+#label_forhead {
+	-fx-text-fill: white;
+	-fx-font-weight:bold;
+	-fx-font-size: 10 px;
+	-fx-font-family: Verdana
+}
+
+
+#playgame {
+	
+	-fx-background-color:black;
+
+}
+
+#homepage_button {
+
+	-fx-background-color:yellow;
+	-fx-font-weight:bold;
+	-fx-font-size : 15px;
+
+}
+
+#Leaderboard_heading {
+
+	-fx-font-size : 30px ; 
+	-fx-font-weight: bold;
+	-fx-text-fill:white;
+
+}
+
+#resume {
+	-fx-background-color:yellow;
+}
+
+#Leaderboard_list {
+
+	-fx-font-size : 10px ; 
+	-fx-font-weight: bold;
+	-fx-text-fill:white;
+
+}
+
+#abc {
+
+	-fx-background-color:red;
+	
+}
+
