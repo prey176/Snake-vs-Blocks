@@ -1,9 +1,14 @@
-# Snakes-vs-Blocks
+# Snake-vs-Blocks
+
+## Overview
+
+The objective of the project is to create a JavaFX application for the game - Snake vs Blocks. In this game, there is a chain of balls that has enough power to break through numbered blocks. If the chain hits a block that it can't break, the game ends.
+This project has been contributed by Vaibhav Sarda and Preyansh Rastogi.
 
 ## Functionality
 
 <ol>
-    <li> The game Snake VS. Block is a game built on Javafx.  
+    <li> The game Snake vs Blocks is a game built on Javafx.  
     <li> There is a "MainMenu" class, where there are 4 Buttons Play, LeaderBoard, How to Play, Exit.
     <li> On Clicking Play, a screen ( "Resume" Class ) appears if some previous unfinished game is there.
     <li> When the game ("PlayGame" Class) starts, a row of blocks comes after some time. Where block is assigned random color and random visibility. The PlayGame has the "Snake" as the attribute, which could move left or right with the function "display" and it could collect the "token" with subclasses "magnet", "bomb", "shield" and we checked it     parallelly whether it collects which of them using multithreading. The token class implements the Runnable Interface. It collides with the row of "blocks", and decreases the snake length by one with delay created using animation timer. 
@@ -16,3 +21,8 @@
     <li> Exit exits the Application.
 </ol>
 
+## Class Diagram
+![Class Diagram-1](https://user-images.githubusercontent.com/44090402/103481415-e8f0e500-4e00-11eb-9889-bdbd352d1441.jpg)
+
+## Use Case Diagram
+![Use Case Diagram-1](https://user-images.githubusercontent.com/44090402/103481429-fc03b500-4e00-11eb-9bd2-09022615d6a9.jpg)
